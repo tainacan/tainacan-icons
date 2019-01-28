@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Tainacan Icons";
-    src: url("../fonts/Tainacan Icons.eot");
-    src: url("../fonts/Tainacan Icons.eot#iefix") format("embedded-opentype"), 
-            url("../fonts/Tainacan Icons.woff2") format("woff2"), 
-            url("../fonts/Tainacan Icons.otf") format("otf"), 
-            url("../fonts/Tainacan Icons.woff") format("woff"), 
-            url("../fonts/Tainacan Icons.ttf") format("truetype"), 
-            url("../fonts/Tainacan Icons.svg") format("svg");
+    font-family: "TainacanIcons";
+    src: url("../fonts/TainacanIcons.eot");
+    src: url("../fonts/TainacanIcons.eot#iefix") format("embedded-opentype"), 
+            url("../fonts/TainacanIcons.woff2") format("woff2"), 
+            url("../fonts/TainacanIcons.otf") format("otf"), 
+            url("../fonts/TainacanIcons.woff") format("woff"), 
+            url("../fonts/TainacanIcons.ttf") format("truetype"), 
+            url("../fonts/TainacanIcons.svg") format("svg");
     font-weight: normal;
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -15,7 +15,7 @@
 .tainacan-icon:before,
 .tainacan-icon-set {
     display: inline-block;
-    font: normal normal normal 24px/1 "Tainacan Icons";
+    font: normal normal normal 20px/1 "TainacanIcons";
     font-size: inherit;
     text-rendering: auto;
     vertical-align: middle;
@@ -57,11 +57,23 @@
 .tainacan-icon-heartoutline:before {
     content: "heartoutline";
 }
+.tainacan-icon-openurl:before {
+    content: "openurl";
+}
+.tainacan-icon-attachments:before {
+    content: "attachments";
+}
+.tainacan-icon-wordpress:before {
+    content: "wordpress";
+}
 .tainacan-icon-activities:before {
     content: "activities";
 }
 .tainacan-icon-add:before {
     content: "add";
+}
+.tainacan-icon-addcollection:before {
+    content: "addcollection";
 }
 .tainacan-icon-alert:before {
     content: "alert";
@@ -78,6 +90,9 @@
 .tainacan-icon-audio:before {
     content: "audio";
 }
+.tainacan-icon-video:before {
+    content: "video";
+}
 .tainacan-icon-close:before {
     content: "close";
 }
@@ -86,6 +101,9 @@
 }
 .tainacan-icon-collections:before {
     content: "collections";
+}
+.tainacan-icon-delete:before {
+    content: "delete";
 }
 .tainacan-icon-deleteforever:before {
     content: "deleteforever";
@@ -132,11 +150,23 @@
 .tainacan-icon-more:before {
     content: "more";
 }
+.tainacan-icon-showmore:before {
+    content: "showmore";
+}
 .tainacan-icon-next:before {
     content: "next";
 }
+.tainacan-icon-drag:before {
+    content: "drag";
+}
 .tainacan-icon-notifications:before {
     content: "notifications";
+}
+.tainacan-icon-nextlevel:before {
+    content: "nextlevel";
+}
+.tainacan-icon-waiting:before {
+    content: "waiting";
 }
 .tainacan-icon-pause:before {
     content: "pause";
@@ -144,8 +174,11 @@
 .tainacan-icon-play:before {
     content: "play";
 }
-.tainacan-icon-pause:before {
-    content: "pause";
+.tainacan-icon-stop:before {
+    content: "stop";
+}
+.tainacan-icon-pausefill:before {
+    content: "pausefill";
 }
 .tainacan-icon-playfill:before {
     content: "playfill";
@@ -246,9 +279,14 @@
     font-size: 18px;
 }
 
-.tainacan-icon-24px.tainacan-icon-set, 
-.tainacan-icon-24px.tainacan-icon:before {
-    font-size: 24px;
+.tainacan-icon-20px.tainacan-icon-set, 
+.tainacan-icon-20px.tainacan-icon:before {
+    font-size: 20px;
+}
+
+.tainacan-icon-30px.tainacan-icon-set, 
+.tainacan-icon-30px.tainacan-icon:before {
+    font-size: 30px;
 }
 
 .tainacan-icon-36px.tainacan-icon-set, 
