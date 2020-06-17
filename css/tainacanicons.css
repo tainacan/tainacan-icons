@@ -286,7 +286,16 @@ font-weight: normal;
     content: "twitter";
 }
 .tainacan-icon-youtube:before {
-    content: "facebook";
+    content: "youtube";
+}
+.tainacan-icon-whatsapp:before {
+    content: "whatsapp";
+}
+.tainacan-icon-telegram:before {
+    content: "telegram";
+}
+.tainacan-icon-form:before {
+    content: "form";
 }
 .tainacan-icon-slidercol:before {
     content: "slidercol";
