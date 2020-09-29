@@ -66,6 +66,9 @@ font-weight: normal;
 .tainacan-icon-attachments:before {
     content: "attachments";
 }
+.tainacan-icon-form:before {
+    content: "form";
+}
 .tainacan-icon-wordpress:before {
     content: "wordpress";
 }
@@ -74,6 +77,9 @@ font-weight: normal;
 }
 .tainacan-icon-add:before {
     content: "add";
+}
+.tainacan-icon-remove:before {
+    content: "remove";
 }
 .tainacan-icon-addcollection:before {
     content: "addcollection";
@@ -279,6 +285,9 @@ font-weight: normal;
 .tainacan-icon-viewtable:before {
     content: "viewtable";
 }
+.tainacan-icon-viewlist:before {
+    content: "viewlist";
+}
 .tainacan-icon-facebook:before {
     content: "facebook";
 }
@@ -286,16 +295,7 @@ font-weight: normal;
     content: "twitter";
 }
 .tainacan-icon-youtube:before {
-    content: "youtube";
-}
-.tainacan-icon-whatsapp:before {
-    content: "whatsapp";
-}
-.tainacan-icon-telegram:before {
-    content: "telegram";
-}
-.tainacan-icon-form:before {
-    content: "form";
+    content: "facebook";
 }
 .tainacan-icon-slidercol:before {
     content: "slidercol";
@@ -342,6 +342,11 @@ font-weight: normal;
 .tainacan-icon-20px.tainacan-icon-set, 
 .tainacan-icon-20px.tainacan-icon:before {
     font-size: 20px;
+}
+
+.tainacan-icon-1-125em.tainacan-icon-set, 
+.tainacan-icon-1-125em.tainacan-icon:before {
+    font-size: 1.125em;
 }
 
 .tainacan-icon-1-25em.tainacan-icon-set, 
